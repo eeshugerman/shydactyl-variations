@@ -6,7 +6,13 @@ work because security](https://github.com/tridactyl/tridactyl/issues/3037),
 so I arrived at this most unpleasant solution.
 
 # how to use it
-// TODO
+```
+colors --url https://raw.githubusercontent.com/eeshugerman/shydactyl-variations/master/dist/shydactyl-icons.css shydactyl-icons
+"or...
+colors --url https://raw.githubusercontent.com/eeshugerman/shydactyl-variations/master/dist/shydactyl-dark.css shydactyl-dark
+"or...
+colors --url https://raw.githubusercontent.com/eeshugerman/shydactyl-variations/master/dist/shydactyl-icons-dark.css shydactyl-icons-dark
+```
 
 # see also
 - https://github.com/tridactyl/tridactyl/issues/1449

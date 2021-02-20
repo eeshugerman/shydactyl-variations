@@ -5,6 +5,7 @@
     --tridactyl-of-fg: black !important;
 }
 
+/* TODO: make shydactyl use vars? */
 :root #command-line-holder {
     border: 2px solid white;
 }
