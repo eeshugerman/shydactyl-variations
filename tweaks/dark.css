@@ -1,0 +1,19 @@
+:root {
+    --tridactyl-bg: black !important;
+    --tridactyl-fg: white !important;
+    --tridactyl-of-bg: white !important;
+    --tridactyl-of-fg: black !important;
+}
+
+:root #command-line-holder {
+    border: 2px solid white;
+}
+
+:root #tridactyl-input {
+    background: black;
+}
+
+:root #completions {
+    color: white;
+    background: black;
+}
