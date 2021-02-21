@@ -4,17 +4,3 @@
     --tridactyl-of-bg: white !important;
     --tridactyl-of-fg: black !important;
 }
-
-/* TODO: make shydactyl use vars? */
-:root #command-line-holder {
-    border: 2px solid white;
-}
-
-:root #tridactyl-input {
-    background: black;
-}
-
-:root #completions {
-    color: white;
-    background: black;
-}

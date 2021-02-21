@@ -1,7 +1,7 @@
 #!/bin/env bash
 set -eux
 
-tridactyl_commit='4d199de26250e59d446a45f819ce8c06892f4a8d'
+tridactyl_commit='ca6f949f3413c8c23551fabcaf5782491d0dbd2d'
 shydactyl_url="https://raw.githubusercontent.com/tridactyl/tridactyl/${tridactyl_commit}/src/static/themes/shydactyl/shydactyl.css"
 shydactyl_src="$(curl --silent $shydactyl_url)"
 
