@@ -33,10 +33,10 @@ build_variation() {
     done
 }
 
-build_variation 'dark'
 
-build_variation 'icons'
+build_variation 'favicons'
 build_variation 'all-icons'
 
-build_variation 'icons dark'
+build_variation 'dark'
+build_variation 'favicons dark'
 build_variation 'all-icons dark'
