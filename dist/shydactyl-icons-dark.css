@@ -133,7 +133,7 @@
 
 /* ------------- begin icons ------------------ */
 :root #completions table tr td.icon {
-    display: unset;
+    display: inherit;
 }
 /* ------------------ end icons ------------------- */
 
@@ -144,18 +144,5 @@
     --tridactyl-of-bg: white !important;
     --tridactyl-of-fg: black !important;
 }
-
-/* :root #command-line-holder { */
-/*     border: 2px solid white; */
-/* } */
-
-/* :root #tridactyl-input { */
-/*     background: black; */
-/* } */
-
-/* :root #completions { */
-/*     color: white; */
-/*     background: black; */
-/* } */
 /* ------------------ end dark ------------------- */
 

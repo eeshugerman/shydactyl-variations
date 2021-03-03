@@ -131,6 +131,23 @@
 
 /* ------------- end shydactyl (base) ------------- */
 
+/* ------------- begin all-icons ------------------ */
+:root #completions table.optionContainer {
+    width: 100%;
+}
+
+:root #completions table tr {
+    display: flex;
+}
+
+:root #completions table tr td.prefix,
+:root #completions table tr td.privatewindow,
+:root #completions table tr td.container,
+:root #completions table tr td.icon {
+    display: inherit;
+}
+/* ------------------ end all-icons ------------------- */
+
 /* ------------- begin dark ------------------ */
 :root {
     --tridactyl-bg: black !important;

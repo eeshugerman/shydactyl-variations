@@ -131,12 +131,20 @@
 
 /* ------------- end shydactyl (base) ------------- */
 
-/* ------------- begin dark ------------------ */
-:root {
-    --tridactyl-bg: black !important;
-    --tridactyl-fg: white !important;
-    --tridactyl-of-bg: white !important;
-    --tridactyl-of-fg: black !important;
+/* ------------- begin all-icons ------------------ */
+:root #completions table.optionContainer {
+    width: 100%;
 }
-/* ------------------ end dark ------------------- */
+
+:root #completions table tr {
+    display: flex;
+}
+
+:root #completions table tr td.prefix,
+:root #completions table tr td.privatewindow,
+:root #completions table tr td.container,
+:root #completions table tr td.icon {
+    display: inherit;
+}
+/* ------------------ end all-icons ------------------- */
 

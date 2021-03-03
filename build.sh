@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 set -eux
 
 tridactyl_commit='ca6f949f3413c8c23551fabcaf5782491d0dbd2d'
@@ -33,6 +33,10 @@ build_variation() {
     done
 }
 
-build_variation 'icons'
 build_variation 'dark'
+
+build_variation 'icons'
+build_variation 'all-icons'
+
 build_variation 'icons dark'
+build_variation 'all-icons dark'

@@ -133,7 +133,7 @@
 
 /* ------------- begin icons ------------------ */
 :root #completions table tr td.icon {
-    display: unset;
+    display: inherit;
 }
 /* ------------------ end icons ------------------- */
 
